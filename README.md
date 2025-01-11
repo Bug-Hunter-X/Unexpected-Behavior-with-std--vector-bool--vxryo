@@ -1,0 +1,1 @@
+This repository demonstrates a potential issue with the std::vector<bool> specialization in C++.  The specialization optimizes memory usage, but this optimization can lead to unexpected behavior when accessing elements. The bug.cpp file shows the problematic code, while bugSolution.cpp offers a solution using a different container for boolean values.
